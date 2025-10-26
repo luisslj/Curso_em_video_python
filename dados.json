@@ -1,0 +1,26 @@
+{
+    "pecas": [
+        {
+            "codigo": "010020",
+            "descricao": "CAVIDADE SUPERIOR"
+        }
+    ],
+    "operadores": [
+        {
+            "nome": "LUIS",
+            "matricula": "120"
+        }
+    ],
+    "maquinas": [
+        {
+            "numero": "cnc",
+            "tipo": "2"
+        },
+        {
+            "numero": "cnc",
+            "tipo": "4"
+        }
+    ],
+    "ordens_servico": [],
+    "posicoes": []
+}
