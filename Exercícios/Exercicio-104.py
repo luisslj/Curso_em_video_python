@@ -2,14 +2,23 @@
 #Ex: n = leiaInt('Digite um n: ')
 
 
-def leiaint(num):
-    num = str(input())
-    if num.isnumeric():
-        return print(num)
-    else:
-       return print('Erro não e um numero')
+def leiaInt(msg):
+    ok = False
+    valor = 0
+    while True:
+        n = str(input(msg))
+        if n.isnumeric():
+            valor = int(n)
+            ok = True
+        else:
+            print('ERRO! Digite um número inteiro válido.')
+        if ok:
+            break
+    return valor
 
-#Programa principal
 
-n = leiaint('Digite um número: ')
-print(f'Você acabou de digitar o número {n}')
+#programa principal
+
+n = leiaInt('Digite um número: ')
+print(f'Você acabou digitar um númro {n}')
+
